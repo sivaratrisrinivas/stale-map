@@ -241,6 +241,8 @@ def main():
     for f in (ROOT / "data/traces").glob("*.jsonl"):
         shutil.copy(f, dist / "data" / f.name)
     (dist / "robots.txt").write_text("User-agent: *\nDisallow: /\n")
+    (dist / "vercel.json").write_text(json.dumps({"headers": [{"source": "/(.*)", "headers": [
+        {"key": "X-Robots-Tag", "value": "noindex, nofollow"}]}]}, indent=1))
     md = (ROOT / "README.tpl.md").read_text()
     for k, v in ctx.items():
         md = md.replace("{{" + k + "}}", str(v))
