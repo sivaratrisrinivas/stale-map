@@ -3,7 +3,6 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex, nofollow">
 <title>Stale Map: how old is the copy an agent reads?</title>
 <style>
 :root { --ink:#1d1d1f; --mute:#6b6b70; --line:#e6e6e6; --bg:#fbfaf7; --good:#2e7d4f; --bad:#b03a2e; }
@@ -37,7 +36,7 @@ footer { margin-top: 60px; color: var(--mute); font-size: 14px; border-top:1px s
 </head>
 <body>
 <main>
-<div class="step" style="margin-top:0">Pilot · not public · offered as data</div>
+<div class="step" style="margin-top:0">Pilot · offered as data</div>
 <h1>Stale Map: how old is the copy an agent reads?</h1>
 <p class="lede">Package registries record the exact second every release goes out. That makes them a free, exact change clock. I used it to measure how far behind Parallel's index is on {{n_parsed}} registry pages that coding agents read, and to score recrawl policies against it.</p>
 
@@ -89,6 +88,7 @@ footer { margin-top: 60px; color: var(--mute); font-size: 14px; border-top:1px s
 <li>Possible confound: PyPI sometimes serves bots a challenge, which could explain stale PyPI copies, since live fetch falls back to the cache. But with live fetch allowed, {{live_same}} of {{live_n}} responses on all four sites came back with the cached copy's <code>acquired_at</code>, so from the outside I can't say why.</li>
 <li>The sample is popular pages that had shipped recently, so it over-weights fast movers. Copies of quiet pages are fresher by construction.</li>
 <li>Crawl time is known to the day (<code>acquired_at</code> is a UTC date). The version bracket is exact, but only as tight as the gap between releases.</li>
+<li>This project is not affiliated with or endorsed by Parallel Web Systems.</li>
 </ul>
 
 <footer>

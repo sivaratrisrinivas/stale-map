@@ -4,6 +4,8 @@ How old is the copy of a page that an agent reads through a search index? Packag
 
 This is a **pilot**: one snapshot on one morning, using only Parallel's free public MCP. It's offered as data that might be useful, not as a verdict on Parallel's index, which may already track all of this internally.
 
+This project is not affiliated with or endorsed by Parallel Web Systems.
+
 ## The one-release version
 
 openai {{p_new}} went up on PyPI at {{p_rel}}. At {{p_obs}}, Parallel's `web_fetch` copy of `pypi.org/project/openai/` still showed **{{p_shown}}** (`acquired_at` {{p_acq}}). It showed the same with `allow_live_fetch: true`, and `errors` and `warnings` were both empty. In the same call, `github.com/openai/openai-python/releases` showed **v{{p_gh}}** (`acquired_at` {{p_gh_acq}}).
@@ -59,6 +61,7 @@ For registry domains, Parallel's Extract API has the knob already. Set `advanced
 - **Narrow slice of the web.** Registry pages change on a public clock, so they are easy to measure, not typical.
 - **Sampling bias.** The sample is popular pages that had shipped recently. It over-weights fast movers, so these stale shares are not index-wide rates.
 - **Day granularity.** `acquired_at` is a date. The change-clock policy uses the middle of that day as the crawl time.
+- **Not affiliated.** This project is not affiliated with or endorsed by Parallel Web Systems.
 
 ## Exclusions
 
