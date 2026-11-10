@@ -1,0 +1,15 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install packaging pytest
+      - run: python -m pytest -q
+      # Rescore from data/slim with no network, then fail if committed results drift.
+      - run: python -m stale_map.analyze && python site/build.py
+      - run: git diff --stat --exit-code -- results/pages.csv

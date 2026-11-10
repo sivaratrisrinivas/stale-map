@@ -1,0 +1,3002 @@
+[
+ {
+  "registry": "pypi",
+  "id": "boto3",
+  "popularity": 2672326221,
+  "url": "https://pypi.org/project/boto3/"
+ },
+ {
+  "registry": "pypi",
+  "id": "certifi",
+  "popularity": 1630254774,
+  "url": "https://pypi.org/project/certifi/"
+ },
+ {
+  "registry": "pypi",
+  "id": "pluggy",
+  "popularity": 1167881064,
+  "url": "https://pypi.org/project/pluggy/"
+ },
+ {
+  "registry": "pypi",
+  "id": "pycparser",
+  "popularity": 1132465945,
+  "url": "https://pypi.org/project/pycparser/"
+ },
+ {
+  "registry": "pypi",
+  "id": "python-dateutil",
+  "popularity": 1126142541,
+  "url": "https://pypi.org/project/python-dateutil/"
+ },
+ {
+  "registry": "pypi",
+  "id": "setuptools",
+  "popularity": 1090102299,
+  "url": "https://pypi.org/project/setuptools/"
+ },
+ {
+  "registry": "pypi",
+  "id": "pydantic",
+  "popularity": 1070556738,
+  "url": "https://pypi.org/project/pydantic/"
+ },
+ {
+  "registry": "pypi",
+  "id": "pydantic-core",
+  "popularity": 1046454887,
+  "url": "https://pypi.org/project/pydantic-core/"
+ },
+ {
+  "registry": "pypi",
+  "id": "click",
+  "popularity": 1027608772,
+  "url": "https://pypi.org/project/click/"
+ },
+ {
+  "registry": "pypi",
+  "id": "numpy",
+  "popularity": 1025805630,
+  "url": "https://pypi.org/project/numpy/"
+ },
+ {
+  "registry": "pypi",
+  "id": "botocore",
+  "popularity": 998168260,
+  "url": "https://pypi.org/project/botocore/"
+ },
+ {
+  "registry": "pypi",
+  "id": "anyio",
+  "popularity": 963847386,
+  "url": "https://pypi.org/project/anyio/"
+ },
+ {
+  "registry": "pypi",
+  "id": "pytest",
+  "popularity": 925782795,
+  "url": "https://pypi.org/project/pytest/"
+ },
+ {
+  "registry": "pypi",
+  "id": "typing-inspection",
+  "popularity": 899117357,
+  "url": "https://pypi.org/project/typing-inspection/"
+ },
+ {
+  "registry": "pypi",
+  "id": "s3transfer",
+  "popularity": 731152180,
+  "url": "https://pypi.org/project/s3transfer/"
+ },
+ {
+  "registry": "pypi",
+  "id": "pandas",
+  "popularity": 668774916,
+  "url": "https://pypi.org/project/pandas/"
+ },
+ {
+  "registry": "pypi",
+  "id": "aiobotocore",
+  "popularity": 661062014,
+  "url": "https://pypi.org/project/aiobotocore/"
+ },
+ {
+  "registry": "pypi",
+  "id": "starlette",
+  "popularity": 653661162,
+  "url": "https://pypi.org/project/starlette/"
+ },
+ {
+  "registry": "pypi",
+  "id": "opentelemetry-api",
+  "popularity": 649967006,
+  "url": "https://pypi.org/project/opentelemetry-api/"
+ },
+ {
+  "registry": "pypi",
+  "id": "platformdirs",
+  "popularity": 648842912,
+  "url": "https://pypi.org/project/platformdirs/"
+ },
+ {
+  "registry": "pypi",
+  "id": "pillow",
+  "popularity": 643243505,
+  "url": "https://pypi.org/project/pillow/"
+ },
+ {
+  "registry": "pypi",
+  "id": "filelock",
+  "popularity": 595937898,
+  "url": "https://pypi.org/project/filelock/"
+ },
+ {
+  "registry": "pypi",
+  "id": "tzdata",
+  "popularity": 574947834,
+  "url": "https://pypi.org/project/tzdata/"
+ },
+ {
+  "registry": "pypi",
+  "id": "tomlkit",
+  "popularity": 565037507,
+  "url": "https://pypi.org/project/tomlkit/"
+ },
+ {
+  "registry": "pypi",
+  "id": "multidict",
+  "popularity": 556032554,
+  "url": "https://pypi.org/project/multidict/"
+ },
+ {
+  "registry": "pypi",
+  "id": "aiohttp",
+  "popularity": 544736474,
+  "url": "https://pypi.org/project/aiohttp/"
+ },
+ {
+  "registry": "pypi",
+  "id": "pip",
+  "popularity": 517082117,
+  "url": "https://pypi.org/project/pip/"
+ },
+ {
+  "registry": "pypi",
+  "id": "websockets",
+  "popularity": 507255617,
+  "url": "https://pypi.org/project/websockets/"
+ },
+ {
+  "registry": "pypi",
+  "id": "fastapi",
+  "popularity": 506417450,
+  "url": "https://pypi.org/project/fastapi/"
+ },
+ {
+  "registry": "pypi",
+  "id": "googleapis-common-protos",
+  "popularity": 497405873,
+  "url": "https://pypi.org/project/googleapis-common-protos/"
+ },
+ {
+  "registry": "pypi",
+  "id": "pytz",
+  "popularity": 495211887,
+  "url": "https://pypi.org/project/pytz/"
+ },
+ {
+  "registry": "pypi",
+  "id": "pyasn1",
+  "popularity": 478530370,
+  "url": "https://pypi.org/project/pyasn1/"
+ },
+ {
+  "registry": "pypi",
+  "id": "pydantic-settings",
+  "popularity": 463559056,
+  "url": "https://pypi.org/project/pydantic-settings/"
+ },
+ {
+  "registry": "pypi",
+  "id": "wrapt",
+  "popularity": 455669990,
+  "url": "https://pypi.org/project/wrapt/"
+ },
+ {
+  "registry": "pypi",
+  "id": "python-multipart",
+  "popularity": 442464422,
+  "url": "https://pypi.org/project/python-multipart/"
+ },
+ {
+  "registry": "pypi",
+  "id": "google-auth",
+  "popularity": 430311083,
+  "url": "https://pypi.org/project/google-auth/"
+ },
+ {
+  "registry": "pypi",
+  "id": "pyarrow",
+  "popularity": 429406703,
+  "url": "https://pypi.org/project/pyarrow/"
+ },
+ {
+  "registry": "pypi",
+  "id": "zipp",
+  "popularity": 414687330,
+  "url": "https://pypi.org/project/zipp/"
+ },
+ {
+  "registry": "pypi",
+  "id": "importlib-metadata",
+  "popularity": 399808222,
+  "url": "https://pypi.org/project/importlib-metadata/"
+ },
+ {
+  "registry": "pypi",
+  "id": "ruff",
+  "popularity": 396472971,
+  "url": "https://pypi.org/project/ruff/"
+ },
+ {
+  "registry": "pypi",
+  "id": "sqlalchemy",
+  "popularity": 394679025,
+  "url": "https://pypi.org/project/sqlalchemy/"
+ },
+ {
+  "registry": "pypi",
+  "id": "jiter",
+  "popularity": 393416416,
+  "url": "https://pypi.org/project/jiter/"
+ },
+ {
+  "registry": "pypi",
+  "id": "hatchling",
+  "popularity": 382322969,
+  "url": "https://pypi.org/project/hatchling/"
+ },
+ {
+  "registry": "pypi",
+  "id": "grpcio",
+  "popularity": 370169739,
+  "url": "https://pypi.org/project/grpcio/"
+ },
+ {
+  "registry": "pypi",
+  "id": "regex",
+  "popularity": 367923635,
+  "url": "https://pypi.org/project/regex/"
+ },
+ {
+  "registry": "pypi",
+  "id": "truststore",
+  "popularity": 367414711,
+  "url": "https://pypi.org/project/truststore/"
+ },
+ {
+  "registry": "pypi",
+  "id": "grpcio-status",
+  "popularity": 362579636,
+  "url": "https://pypi.org/project/grpcio-status/"
+ },
+ {
+  "registry": "pypi",
+  "id": "openai",
+  "popularity": 359077600,
+  "url": "https://pypi.org/project/openai/"
+ },
+ {
+  "registry": "pypi",
+  "id": "httpx2",
+  "popularity": 353848370,
+  "url": "https://pypi.org/project/httpx2/"
+ },
+ {
+  "registry": "pypi",
+  "id": "httpcore2",
+  "popularity": 353317458,
+  "url": "https://pypi.org/project/httpcore2/"
+ },
+ {
+  "registry": "pypi",
+  "id": "google-api-core",
+  "popularity": 347302268,
+  "url": "https://pypi.org/project/google-api-core/"
+ },
+ {
+  "registry": "pypi",
+  "id": "soupsieve",
+  "popularity": 331809368,
+  "url": "https://pypi.org/project/soupsieve/"
+ },
+ {
+  "registry": "pypi",
+  "id": "coverage",
+  "popularity": 328644834,
+  "url": "https://pypi.org/project/coverage/"
+ },
+ {
+  "registry": "pypi",
+  "id": "opentelemetry-sdk",
+  "popularity": 323709963,
+  "url": "https://pypi.org/project/opentelemetry-sdk/"
+ },
+ {
+  "registry": "pypi",
+  "id": "sse-starlette",
+  "popularity": 302700566,
+  "url": "https://pypi.org/project/sse-starlette/"
+ },
+ {
+  "registry": "pypi",
+  "id": "mypy-extensions",
+  "popularity": 299732231,
+  "url": "https://pypi.org/project/mypy-extensions/"
+ },
+ {
+  "registry": "pypi",
+  "id": "typer",
+  "popularity": 293496192,
+  "url": "https://pypi.org/project/typer/"
+ },
+ {
+  "registry": "pypi",
+  "id": "wcwidth",
+  "popularity": 283532049,
+  "url": "https://pypi.org/project/wcwidth/"
+ },
+ {
+  "registry": "pypi",
+  "id": "huggingface-hub",
+  "popularity": 279727374,
+  "url": "https://pypi.org/project/huggingface-hub/"
+ },
+ {
+  "registry": "pypi",
+  "id": "dnspython",
+  "popularity": 277076453,
+  "url": "https://pypi.org/project/dnspython/"
+ },
+ {
+  "registry": "pypi",
+  "id": "pytest-asyncio",
+  "popularity": 270681184,
+  "url": "https://pypi.org/project/pytest-asyncio/"
+ },
+ {
+  "registry": "pypi",
+  "id": "cachetools",
+  "popularity": 269479664,
+  "url": "https://pypi.org/project/cachetools/"
+ },
+ {
+  "registry": "pypi",
+  "id": "opentelemetry-proto",
+  "popularity": 268907865,
+  "url": "https://pypi.org/project/opentelemetry-proto/"
+ },
+ {
+  "registry": "pypi",
+  "id": "oauthlib",
+  "popularity": 265289924,
+  "url": "https://pypi.org/project/oauthlib/"
+ },
+ {
+  "registry": "pypi",
+  "id": "more-itertools",
+  "popularity": 256091984,
+  "url": "https://pypi.org/project/more-itertools/"
+ },
+ {
+  "registry": "pypi",
+  "id": "virtualenv",
+  "popularity": 254047981,
+  "url": "https://pypi.org/project/virtualenv/"
+ },
+ {
+  "registry": "pypi",
+  "id": "opentelemetry-exporter-otlp-proto-common",
+  "popularity": 247189908,
+  "url": "https://pypi.org/project/opentelemetry-exporter-otlp-proto-common/"
+ },
+ {
+  "registry": "pypi",
+  "id": "distlib",
+  "popularity": 237233490,
+  "url": "https://pypi.org/project/distlib/"
+ },
+ {
+  "registry": "pypi",
+  "id": "hf-xet",
+  "popularity": 234446922,
+  "url": "https://pypi.org/project/hf-xet/"
+ },
+ {
+  "registry": "pypi",
+  "id": "fonttools",
+  "popularity": 234391052,
+  "url": "https://pypi.org/project/fonttools/"
+ },
+ {
+  "registry": "pypi",
+  "id": "msgpack",
+  "popularity": 232767718,
+  "url": "https://pypi.org/project/msgpack/"
+ },
+ {
+  "registry": "pypi",
+  "id": "opentelemetry-exporter-otlp-proto-http",
+  "popularity": 220896653,
+  "url": "https://pypi.org/project/opentelemetry-exporter-otlp-proto-http/"
+ },
+ {
+  "registry": "pypi",
+  "id": "alembic",
+  "popularity": 218830049,
+  "url": "https://pypi.org/project/alembic/"
+ },
+ {
+  "registry": "pypi",
+  "id": "threadpoolctl",
+  "popularity": 200531158,
+  "url": "https://pypi.org/project/threadpoolctl/"
+ },
+ {
+  "registry": "pypi",
+  "id": "mypy",
+  "popularity": 198973832,
+  "url": "https://pypi.org/project/mypy/"
+ },
+ {
+  "registry": "pypi",
+  "id": "anthropic",
+  "popularity": 193758508,
+  "url": "https://pypi.org/project/anthropic/"
+ },
+ {
+  "registry": "pypi",
+  "id": "nodeenv",
+  "popularity": 192235504,
+  "url": "https://pypi.org/project/nodeenv/"
+ },
+ {
+  "registry": "pypi",
+  "id": "python-discovery",
+  "popularity": 188851405,
+  "url": "https://pypi.org/project/python-discovery/"
+ },
+ {
+  "registry": "pypi",
+  "id": "psycopg",
+  "popularity": 187854205,
+  "url": "https://pypi.org/project/psycopg/"
+ },
+ {
+  "registry": "pypi",
+  "id": "tzlocal",
+  "popularity": 185529714,
+  "url": "https://pypi.org/project/tzlocal/"
+ },
+ {
+  "registry": "pypi",
+  "id": "psycopg-binary",
+  "popularity": 183898067,
+  "url": "https://pypi.org/project/psycopg-binary/"
+ },
+ {
+  "registry": "pypi",
+  "id": "pypdf",
+  "popularity": 176348328,
+  "url": "https://pypi.org/project/pypdf/"
+ },
+ {
+  "registry": "pypi",
+  "id": "google-cloud-storage",
+  "popularity": 171954945,
+  "url": "https://pypi.org/project/google-cloud-storage/"
+ },
+ {
+  "registry": "pypi",
+  "id": "google-cloud-bigquery",
+  "popularity": 170471471,
+  "url": "https://pypi.org/project/google-cloud-bigquery/"
+ },
+ {
+  "registry": "pypi",
+  "id": "chardet",
+  "popularity": 170288347,
+  "url": "https://pypi.org/project/chardet/"
+ },
+ {
+  "registry": "pypi",
+  "id": "langchain",
+  "popularity": 165175615,
+  "url": "https://pypi.org/project/langchain/"
+ },
+ {
+  "registry": "pypi",
+  "id": "google-genai",
+  "popularity": 161323461,
+  "url": "https://pypi.org/project/google-genai/"
+ },
+ {
+  "registry": "pypi",
+  "id": "xxhash",
+  "popularity": 160865402,
+  "url": "https://pypi.org/project/xxhash/"
+ },
+ {
+  "registry": "pypi",
+  "id": "xlsxwriter",
+  "popularity": 160022282,
+  "url": "https://pypi.org/project/xlsxwriter/"
+ },
+ {
+  "registry": "pypi",
+  "id": "langchain-core",
+  "popularity": 159702109,
+  "url": "https://pypi.org/project/langchain-core/"
+ },
+ {
+  "registry": "pypi",
+  "id": "grpcio-tools",
+  "popularity": 157724063,
+  "url": "https://pypi.org/project/grpcio-tools/"
+ },
+ {
+  "registry": "pypi",
+  "id": "pre-commit",
+  "popularity": 157301242,
+  "url": "https://pypi.org/project/pre-commit/"
+ },
+ {
+  "registry": "pypi",
+  "id": "uv",
+  "popularity": 155606520,
+  "url": "https://pypi.org/project/uv/"
+ },
+ {
+  "registry": "pypi",
+  "id": "jsonpointer",
+  "popularity": 155164497,
+  "url": "https://pypi.org/project/jsonpointer/"
+ },
+ {
+  "registry": "pypi",
+  "id": "sentry-sdk",
+  "popularity": 154800633,
+  "url": "https://pypi.org/project/sentry-sdk/"
+ },
+ {
+  "registry": "pypi",
+  "id": "gitpython",
+  "popularity": 152016789,
+  "url": "https://pypi.org/project/gitpython/"
+ },
+ {
+  "registry": "pypi",
+  "id": "asgiref",
+  "popularity": 149176850,
+  "url": "https://pypi.org/project/asgiref/"
+ },
+ {
+  "registry": "pypi",
+  "id": "deprecated",
+  "popularity": 148818658,
+  "url": "https://pypi.org/project/deprecated/"
+ },
+ {
+  "registry": "pypi",
+  "id": "narwhals",
+  "popularity": 139399049,
+  "url": "https://pypi.org/project/narwhals/"
+ },
+ {
+  "registry": "pypi",
+  "id": "azure-identity",
+  "popularity": 136835033,
+  "url": "https://pypi.org/project/azure-identity/"
+ },
+ {
+  "registry": "pypi",
+  "id": "httplib2",
+  "popularity": 133117816,
+  "url": "https://pypi.org/project/httplib2/"
+ },
+ {
+  "registry": "pypi",
+  "id": "authlib",
+  "popularity": 127396955,
+  "url": "https://pypi.org/project/authlib/"
+ },
+ {
+  "registry": "pypi",
+  "id": "fastjsonschema",
+  "popularity": 126252437,
+  "url": "https://pypi.org/project/fastjsonschema/"
+ },
+ {
+  "registry": "pypi",
+  "id": "jsonpatch",
+  "popularity": 126113477,
+  "url": "https://pypi.org/project/jsonpatch/"
+ },
+ {
+  "registry": "pypi",
+  "id": "playwright",
+  "popularity": 124971918,
+  "url": "https://pypi.org/project/playwright/"
+ },
+ {
+  "registry": "pypi",
+  "id": "executing",
+  "popularity": 124911448,
+  "url": "https://pypi.org/project/executing/"
+ },
+ {
+  "registry": "pypi",
+  "id": "opentelemetry-exporter-otlp-proto-grpc",
+  "popularity": 124377008,
+  "url": "https://pypi.org/project/opentelemetry-exporter-otlp-proto-grpc/"
+ },
+ {
+  "registry": "pypi",
+  "id": "sqlparse",
+  "popularity": 123563400,
+  "url": "https://pypi.org/project/sqlparse/"
+ },
+ {
+  "registry": "pypi",
+  "id": "pyee",
+  "popularity": 119169472,
+  "url": "https://pypi.org/project/pyee/"
+ },
+ {
+  "registry": "pypi",
+  "id": "pymupdf",
+  "popularity": 118343922,
+  "url": "https://pypi.org/project/pymupdf/"
+ },
+ {
+  "registry": "pypi",
+  "id": "tornado",
+  "popularity": 117669398,
+  "url": "https://pypi.org/project/tornado/"
+ },
+ {
+  "registry": "pypi",
+  "id": "markdown",
+  "popularity": 117191491,
+  "url": "https://pypi.org/project/markdown/"
+ },
+ {
+  "registry": "pypi",
+  "id": "grpc-google-iam-v1",
+  "popularity": 117051056,
+  "url": "https://pypi.org/project/grpc-google-iam-v1/"
+ },
+ {
+  "registry": "pypi",
+  "id": "joserfc",
+  "popularity": 116945027,
+  "url": "https://pypi.org/project/joserfc/"
+ },
+ {
+  "registry": "pypi",
+  "id": "transformers",
+  "popularity": 115116893,
+  "url": "https://pypi.org/project/transformers/"
+ },
+ {
+  "registry": "pypi",
+  "id": "paramiko",
+  "popularity": 114432649,
+  "url": "https://pypi.org/project/paramiko/"
+ },
+ {
+  "registry": "pypi",
+  "id": "jedi",
+  "popularity": 113854190,
+  "url": "https://pypi.org/project/jedi/"
+ },
+ {
+  "registry": "pypi",
+  "id": "snowflake-connector-python",
+  "popularity": 112950671,
+  "url": "https://pypi.org/project/snowflake-connector-python/"
+ },
+ {
+  "registry": "pypi",
+  "id": "ipython",
+  "popularity": 112433296,
+  "url": "https://pypi.org/project/ipython/"
+ },
+ {
+  "registry": "pypi",
+  "id": "pyzmq",
+  "popularity": 109881085,
+  "url": "https://pypi.org/project/pyzmq/"
+ },
+ {
+  "registry": "pypi",
+  "id": "brotli",
+  "popularity": 109196691,
+  "url": "https://pypi.org/project/brotli/"
+ },
+ {
+  "registry": "pypi",
+  "id": "onnxruntime",
+  "popularity": 107512090,
+  "url": "https://pypi.org/project/onnxruntime/"
+ },
+ {
+  "registry": "pypi",
+  "id": "azure-storage-blob",
+  "popularity": 105190981,
+  "url": "https://pypi.org/project/azure-storage-blob/"
+ },
+ {
+  "registry": "pypi",
+  "id": "watchdog",
+  "popularity": 104553967,
+  "url": "https://pypi.org/project/watchdog/"
+ },
+ {
+  "registry": "pypi",
+  "id": "ast-serialize",
+  "popularity": 103834459,
+  "url": "https://pypi.org/project/ast-serialize/"
+ },
+ {
+  "registry": "pypi",
+  "id": "litellm",
+  "popularity": 100336915,
+  "url": "https://pypi.org/project/litellm/"
+ },
+ {
+  "registry": "pypi",
+  "id": "griffelib",
+  "popularity": 97136080,
+  "url": "https://pypi.org/project/griffelib/"
+ },
+ {
+  "registry": "pypi",
+  "id": "google-cloud-aiplatform",
+  "popularity": 94484658,
+  "url": "https://pypi.org/project/google-cloud-aiplatform/"
+ },
+ {
+  "registry": "pypi",
+  "id": "pytest-mock",
+  "popularity": 92537263,
+  "url": "https://pypi.org/project/pytest-mock/"
+ },
+ {
+  "registry": "pypi",
+  "id": "marshmallow",
+  "popularity": 91625684,
+  "url": "https://pypi.org/project/marshmallow/"
+ },
+ {
+  "registry": "pypi",
+  "id": "langsmith",
+  "popularity": 91561744,
+  "url": "https://pypi.org/project/langsmith/"
+ },
+ {
+  "registry": "pypi",
+  "id": "awscli",
+  "popularity": 90387292,
+  "url": "https://pypi.org/project/awscli/"
+ },
+ {
+  "registry": "pypi",
+  "id": "cython",
+  "popularity": 89944668,
+  "url": "https://pypi.org/project/cython/"
+ },
+ {
+  "registry": "pypi",
+  "id": "pypdfium2",
+  "popularity": 89823307,
+  "url": "https://pypi.org/project/pypdfium2/"
+ },
+ {
+  "registry": "pypi",
+  "id": "slack-sdk",
+  "popularity": 88709659,
+  "url": "https://pypi.org/project/slack-sdk/"
+ },
+ {
+  "registry": "pypi",
+  "id": "databricks-sdk",
+  "popularity": 88048820,
+  "url": "https://pypi.org/project/databricks-sdk/"
+ },
+ {
+  "registry": "pypi",
+  "id": "sqlglot",
+  "popularity": 86418312,
+  "url": "https://pypi.org/project/sqlglot/"
+ },
+ {
+  "registry": "pypi",
+  "id": "awswrangler",
+  "popularity": 86118778,
+  "url": "https://pypi.org/project/awswrangler/"
+ },
+ {
+  "registry": "pypi",
+  "id": "kubernetes",
+  "popularity": 85817698,
+  "url": "https://pypi.org/project/kubernetes/"
+ },
+ {
+  "registry": "pypi",
+  "id": "beartype",
+  "popularity": 85346409,
+  "url": "https://pypi.org/project/beartype/"
+ },
+ {
+  "registry": "pypi",
+  "id": "uuid-utils",
+  "popularity": 84859985,
+  "url": "https://pypi.org/project/uuid-utils/"
+ },
+ {
+  "registry": "pypi",
+  "id": "pycryptodome",
+  "popularity": 82381928,
+  "url": "https://pypi.org/project/pycryptodome/"
+ },
+ {
+  "registry": "pypi",
+  "id": "types-requests",
+  "popularity": 81663220,
+  "url": "https://pypi.org/project/types-requests/"
+ },
+ {
+  "registry": "pypi",
+  "id": "reportlab",
+  "popularity": 80170689,
+  "url": "https://pypi.org/project/reportlab/"
+ },
+ {
+  "registry": "pypi",
+  "id": "cyclopts",
+  "popularity": 77779493,
+  "url": "https://pypi.org/project/cyclopts/"
+ },
+ {
+  "registry": "pypi",
+  "id": "faker",
+  "popularity": 75047228,
+  "url": "https://pypi.org/project/faker/"
+ },
+ {
+  "registry": "pypi",
+  "id": "cbor2",
+  "popularity": 74660938,
+  "url": "https://pypi.org/project/cbor2/"
+ },
+ {
+  "registry": "pypi",
+  "id": "graphql-core",
+  "popularity": 73398764,
+  "url": "https://pypi.org/project/graphql-core/"
+ },
+ {
+  "registry": "pypi",
+  "id": "mistune",
+  "popularity": 72894662,
+  "url": "https://pypi.org/project/mistune/"
+ },
+ {
+  "registry": "pypi",
+  "id": "pymongo",
+  "popularity": 72334802,
+  "url": "https://pypi.org/project/pymongo/"
+ },
+ {
+  "registry": "npm",
+  "id": "semver",
+  "popularity": 3959863016,
+  "url": "https://www.npmjs.com/package/semver"
+ },
+ {
+  "registry": "npm",
+  "id": "minimatch",
+  "popularity": 3280271452,
+  "url": "https://www.npmjs.com/package/minimatch"
+ },
+ {
+  "registry": "npm",
+  "id": "commander",
+  "popularity": 2483974342,
+  "url": "https://www.npmjs.com/package/commander"
+ },
+ {
+  "registry": "npm",
+  "id": "ansi-regex",
+  "popularity": 2335342729,
+  "url": "https://www.npmjs.com/package/ansi-regex"
+ },
+ {
+  "registry": "npm",
+  "id": "tslib",
+  "popularity": 2058179629,
+  "url": "https://www.npmjs.com/package/tslib"
+ },
+ {
+  "registry": "npm",
+  "id": "balanced-match",
+  "popularity": 1926180223,
+  "url": "https://www.npmjs.com/package/balanced-match"
+ },
+ {
+  "registry": "npm",
+  "id": "glob",
+  "popularity": 1817035051,
+  "url": "https://www.npmjs.com/package/glob"
+ },
+ {
+  "registry": "npm",
+  "id": "undici-types",
+  "popularity": 1636886555,
+  "url": "https://www.npmjs.com/package/undici-types"
+ },
+ {
+  "registry": "npm",
+  "id": "react-is",
+  "popularity": 1635201426,
+  "url": "https://www.npmjs.com/package/react-is"
+ },
+ {
+  "registry": "npm",
+  "id": "zod",
+  "popularity": 1570792232,
+  "url": "https://www.npmjs.com/package/zod"
+ },
+ {
+  "registry": "npm",
+  "id": "entities",
+  "popularity": 1541333003,
+  "url": "https://www.npmjs.com/package/entities"
+ },
+ {
+  "registry": "npm",
+  "id": "ignore",
+  "popularity": 1472119353,
+  "url": "https://www.npmjs.com/package/ignore"
+ },
+ {
+  "registry": "npm",
+  "id": "postcss",
+  "popularity": 1419568208,
+  "url": "https://www.npmjs.com/package/postcss"
+ },
+ {
+  "registry": "npm",
+  "id": "js-yaml",
+  "popularity": 1344153606,
+  "url": "https://www.npmjs.com/package/js-yaml"
+ },
+ {
+  "registry": "npm",
+  "id": "ws",
+  "popularity": 1337827057,
+  "url": "https://www.npmjs.com/package/ws"
+ },
+ {
+  "registry": "npm",
+  "id": "argparse",
+  "popularity": 1225823402,
+  "url": "https://www.npmjs.com/package/argparse"
+ },
+ {
+  "registry": "npm",
+  "id": "magic-string",
+  "popularity": 1194890364,
+  "url": "https://www.npmjs.com/package/magic-string"
+ },
+ {
+  "registry": "npm",
+  "id": "whatwg-url",
+  "popularity": 1135292784,
+  "url": "https://www.npmjs.com/package/whatwg-url"
+ },
+ {
+  "registry": "npm",
+  "id": "globals",
+  "popularity": 1122595849,
+  "url": "https://www.npmjs.com/package/globals"
+ },
+ {
+  "registry": "npm",
+  "id": "cookie",
+  "popularity": 1087655093,
+  "url": "https://www.npmjs.com/package/cookie"
+ },
+ {
+  "registry": "npm",
+  "id": "path-to-regexp",
+  "popularity": 1077383543,
+  "url": "https://www.npmjs.com/package/path-to-regexp"
+ },
+ {
+  "registry": "npm",
+  "id": "resolve",
+  "popularity": 1072291577,
+  "url": "https://www.npmjs.com/package/resolve"
+ },
+ {
+  "registry": "npm",
+  "id": "pnpm",
+  "popularity": 1067952710,
+  "url": "https://www.npmjs.com/package/pnpm"
+ },
+ {
+  "registry": "npm",
+  "id": "caniuse-lite",
+  "popularity": 966583448,
+  "url": "https://www.npmjs.com/package/caniuse-lite"
+ },
+ {
+  "registry": "npm",
+  "id": "es-module-lexer",
+  "popularity": 952140548,
+  "url": "https://www.npmjs.com/package/es-module-lexer"
+ },
+ {
+  "registry": "npm",
+  "id": "chokidar",
+  "popularity": 951587334,
+  "url": "https://www.npmjs.com/package/chokidar"
+ },
+ {
+  "registry": "npm",
+  "id": "electron-to-chromium",
+  "popularity": 905269499,
+  "url": "https://www.npmjs.com/package/electron-to-chromium"
+ },
+ {
+  "registry": "npm",
+  "id": "browserslist",
+  "popularity": 903475231,
+  "url": "https://www.npmjs.com/package/browserslist"
+ },
+ {
+  "registry": "npm",
+  "id": "vite",
+  "popularity": 894006757,
+  "url": "https://www.npmjs.com/package/vite"
+ },
+ {
+  "registry": "npm",
+  "id": "qs",
+  "popularity": 892360699,
+  "url": "https://www.npmjs.com/package/qs"
+ },
+ {
+  "registry": "npm",
+  "id": "path-scurry",
+  "popularity": 890104596,
+  "url": "https://www.npmjs.com/package/path-scurry"
+ },
+ {
+  "registry": "npm",
+  "id": "node-releases",
+  "popularity": 886130764,
+  "url": "https://www.npmjs.com/package/node-releases"
+ },
+ {
+  "registry": "npm",
+  "id": "dotenv",
+  "popularity": 881754862,
+  "url": "https://www.npmjs.com/package/dotenv"
+ },
+ {
+  "registry": "npm",
+  "id": "react",
+  "popularity": 865843985,
+  "url": "https://www.npmjs.com/package/react"
+ },
+ {
+  "registry": "npm",
+  "id": "baseline-browser-mapping",
+  "popularity": 841810184,
+  "url": "https://www.npmjs.com/package/baseline-browser-mapping"
+ },
+ {
+  "registry": "npm",
+  "id": "camelcase",
+  "popularity": 833486527,
+  "url": "https://www.npmjs.com/package/camelcase"
+ },
+ {
+  "registry": "npm",
+  "id": "react-dom",
+  "popularity": 813501456,
+  "url": "https://www.npmjs.com/package/react-dom"
+ },
+ {
+  "registry": "npm",
+  "id": "execa",
+  "popularity": 793967255,
+  "url": "https://www.npmjs.com/package/execa"
+ },
+ {
+  "registry": "npm",
+  "id": "parse5",
+  "popularity": 787459980,
+  "url": "https://www.npmjs.com/package/parse5"
+ },
+ {
+  "registry": "npm",
+  "id": "encodeurl",
+  "popularity": 757816324,
+  "url": "https://www.npmjs.com/package/encodeurl"
+ },
+ {
+  "registry": "npm",
+  "id": "jose",
+  "popularity": 749211965,
+  "url": "https://www.npmjs.com/package/jose"
+ },
+ {
+  "registry": "npm",
+  "id": "is-core-module",
+  "popularity": 734613022,
+  "url": "https://www.npmjs.com/package/is-core-module"
+ },
+ {
+  "registry": "npm",
+  "id": "fast-uri",
+  "popularity": 727639674,
+  "url": "https://www.npmjs.com/package/fast-uri"
+ },
+ {
+  "registry": "npm",
+  "id": "mime",
+  "popularity": 725926154,
+  "url": "https://www.npmjs.com/package/mime"
+ },
+ {
+  "registry": "npm",
+  "id": "rimraf",
+  "popularity": 725399808,
+  "url": "https://www.npmjs.com/package/rimraf"
+ },
+ {
+  "registry": "npm",
+  "id": "on-finished",
+  "popularity": 714001193,
+  "url": "https://www.npmjs.com/package/on-finished"
+ },
+ {
+  "registry": "npm",
+  "id": "eslint",
+  "popularity": 711205262,
+  "url": "https://www.npmjs.com/package/eslint"
+ },
+ {
+  "registry": "npm",
+  "id": "body-parser",
+  "popularity": 690736413,
+  "url": "https://www.npmjs.com/package/body-parser"
+ },
+ {
+  "registry": "npm",
+  "id": "enhanced-resolve",
+  "popularity": 666716547,
+  "url": "https://www.npmjs.com/package/enhanced-resolve"
+ },
+ {
+  "registry": "npm",
+  "id": "tough-cookie",
+  "popularity": 642000427,
+  "url": "https://www.npmjs.com/package/tough-cookie"
+ },
+ {
+  "registry": "npm",
+  "id": "postcss-selector-parser",
+  "popularity": 627624111,
+  "url": "https://www.npmjs.com/package/postcss-selector-parser"
+ },
+ {
+  "registry": "npm",
+  "id": "prettier",
+  "popularity": 624357517,
+  "url": "https://www.npmjs.com/package/prettier"
+ },
+ {
+  "registry": "npm",
+  "id": "tailwindcss",
+  "popularity": 609572188,
+  "url": "https://www.npmjs.com/package/tailwindcss"
+ },
+ {
+  "registry": "npm",
+  "id": "pako",
+  "popularity": 609480924,
+  "url": "https://www.npmjs.com/package/pako"
+ },
+ {
+  "registry": "npm",
+  "id": "playwright-core",
+  "popularity": 607189128,
+  "url": "https://www.npmjs.com/package/playwright-core"
+ },
+ {
+  "registry": "npm",
+  "id": "vitest",
+  "popularity": 598549375,
+  "url": "https://www.npmjs.com/package/vitest"
+ },
+ {
+  "registry": "npm",
+  "id": "rollup",
+  "popularity": 561616565,
+  "url": "https://www.npmjs.com/package/rollup"
+ },
+ {
+  "registry": "npm",
+  "id": "playwright",
+  "popularity": 546659589,
+  "url": "https://www.npmjs.com/package/playwright"
+ },
+ {
+  "registry": "npm",
+  "id": "tinybench",
+  "popularity": 537413513,
+  "url": "https://www.npmjs.com/package/tinybench"
+ },
+ {
+  "registry": "npm",
+  "id": "jsdom",
+  "popularity": 523537489,
+  "url": "https://www.npmjs.com/package/jsdom"
+ },
+ {
+  "registry": "npm",
+  "id": "slice-ansi",
+  "popularity": 521144681,
+  "url": "https://www.npmjs.com/package/slice-ansi"
+ },
+ {
+  "registry": "npm",
+  "id": "gaxios",
+  "popularity": 517522369,
+  "url": "https://www.npmjs.com/package/gaxios"
+ },
+ {
+  "registry": "npm",
+  "id": "schema-utils",
+  "popularity": 514808898,
+  "url": "https://www.npmjs.com/package/schema-utils"
+ },
+ {
+  "registry": "npm",
+  "id": "axios",
+  "popularity": 498649470,
+  "url": "https://www.npmjs.com/package/axios"
+ },
+ {
+  "registry": "npm",
+  "id": "follow-redirects",
+  "popularity": 489869316,
+  "url": "https://www.npmjs.com/package/follow-redirects"
+ },
+ {
+  "registry": "npm",
+  "id": "tldts-core",
+  "popularity": 482166358,
+  "url": "https://www.npmjs.com/package/tldts-core"
+ },
+ {
+  "registry": "npm",
+  "id": "d3-array",
+  "popularity": 481687926,
+  "url": "https://www.npmjs.com/package/d3-array"
+ },
+ {
+  "registry": "npm",
+  "id": "google-auth-library",
+  "popularity": 458132736,
+  "url": "https://www.npmjs.com/package/google-auth-library"
+ },
+ {
+  "registry": "npm",
+  "id": "ip-address",
+  "popularity": 456205444,
+  "url": "https://www.npmjs.com/package/ip-address"
+ },
+ {
+  "registry": "npm",
+  "id": "gcp-metadata",
+  "popularity": 455036366,
+  "url": "https://www.npmjs.com/package/gcp-metadata"
+ },
+ {
+  "registry": "npm",
+  "id": "ora",
+  "popularity": 441849220,
+  "url": "https://www.npmjs.com/package/ora"
+ },
+ {
+  "registry": "npm",
+  "id": "d3-shape",
+  "popularity": 423902303,
+  "url": "https://www.npmjs.com/package/d3-shape"
+ },
+ {
+  "registry": "npm",
+  "id": "d3-path",
+  "popularity": 423509502,
+  "url": "https://www.npmjs.com/package/d3-path"
+ },
+ {
+  "registry": "npm",
+  "id": "protobufjs",
+  "popularity": 420965148,
+  "url": "https://www.npmjs.com/package/protobufjs"
+ },
+ {
+  "registry": "npm",
+  "id": "google-logging-utils",
+  "popularity": 419598153,
+  "url": "https://www.npmjs.com/package/google-logging-utils"
+ },
+ {
+  "registry": "npm",
+  "id": "typescript-eslint",
+  "popularity": 401730504,
+  "url": "https://www.npmjs.com/package/typescript-eslint"
+ },
+ {
+  "registry": "npm",
+  "id": "bl",
+  "popularity": 394609351,
+  "url": "https://www.npmjs.com/package/bl"
+ },
+ {
+  "registry": "npm",
+  "id": "eventsource-parser",
+  "popularity": 393423156,
+  "url": "https://www.npmjs.com/package/eventsource-parser"
+ },
+ {
+  "registry": "npm",
+  "id": "fast-xml-parser",
+  "popularity": 379697850,
+  "url": "https://www.npmjs.com/package/fast-xml-parser"
+ },
+ {
+  "registry": "npm",
+  "id": "web-streams-polyfill",
+  "popularity": 375410372,
+  "url": "https://www.npmjs.com/package/web-streams-polyfill"
+ },
+ {
+  "registry": "npm",
+  "id": "import-in-the-middle",
+  "popularity": 373152093,
+  "url": "https://www.npmjs.com/package/import-in-the-middle"
+ },
+ {
+  "registry": "npm",
+  "id": "d3-interpolate",
+  "popularity": 359478901,
+  "url": "https://www.npmjs.com/package/d3-interpolate"
+ },
+ {
+  "registry": "npm",
+  "id": "d3-color",
+  "popularity": 356449319,
+  "url": "https://www.npmjs.com/package/d3-color"
+ },
+ {
+  "registry": "npm",
+  "id": "lilconfig",
+  "popularity": 356365283,
+  "url": "https://www.npmjs.com/package/lilconfig"
+ },
+ {
+  "registry": "npm",
+  "id": "d3-format",
+  "popularity": 355746219,
+  "url": "https://www.npmjs.com/package/d3-format"
+ },
+ {
+  "registry": "npm",
+  "id": "confbox",
+  "popularity": 353013867,
+  "url": "https://www.npmjs.com/package/confbox"
+ },
+ {
+  "registry": "npm",
+  "id": "hono",
+  "popularity": 350696010,
+  "url": "https://www.npmjs.com/package/hono"
+ },
+ {
+  "registry": "npm",
+  "id": "p-map",
+  "popularity": 349471297,
+  "url": "https://www.npmjs.com/package/p-map"
+ },
+ {
+  "registry": "npm",
+  "id": "d3-time",
+  "popularity": 346131765,
+  "url": "https://www.npmjs.com/package/d3-time"
+ },
+ {
+  "registry": "npm",
+  "id": "unist-util-visit",
+  "popularity": 345324379,
+  "url": "https://www.npmjs.com/package/unist-util-visit"
+ },
+ {
+  "registry": "npm",
+  "id": "unist-util-visit-parents",
+  "popularity": 344240103,
+  "url": "https://www.npmjs.com/package/unist-util-visit-parents"
+ },
+ {
+  "registry": "npm",
+  "id": "d3-time-format",
+  "popularity": 338531741,
+  "url": "https://www.npmjs.com/package/d3-time-format"
+ },
+ {
+  "registry": "npm",
+  "id": "strnum",
+  "popularity": 336044352,
+  "url": "https://www.npmjs.com/package/strnum"
+ },
+ {
+  "registry": "npm",
+  "id": "d3-timer",
+  "popularity": 333811645,
+  "url": "https://www.npmjs.com/package/d3-timer"
+ },
+ {
+  "registry": "npm",
+  "id": "dompurify",
+  "popularity": 332729649,
+  "url": "https://www.npmjs.com/package/dompurify"
+ },
+ {
+  "registry": "npm",
+  "id": "eventsource",
+  "popularity": 332134316,
+  "url": "https://www.npmjs.com/package/eventsource"
+ },
+ {
+  "registry": "npm",
+  "id": "d3-scale",
+  "popularity": 331069570,
+  "url": "https://www.npmjs.com/package/d3-scale"
+ },
+ {
+  "registry": "npm",
+  "id": "set-cookie-parser",
+  "popularity": 331036029,
+  "url": "https://www.npmjs.com/package/set-cookie-parser"
+ },
+ {
+  "registry": "npm",
+  "id": "express-rate-limit",
+  "popularity": 325510727,
+  "url": "https://www.npmjs.com/package/express-rate-limit"
+ },
+ {
+  "registry": "npm",
+  "id": "core-js",
+  "popularity": 324567811,
+  "url": "https://www.npmjs.com/package/core-js"
+ },
+ {
+  "registry": "npm",
+  "id": "d3-ease",
+  "popularity": 322886980,
+  "url": "https://www.npmjs.com/package/d3-ease"
+ },
+ {
+  "registry": "npm",
+  "id": "vfile-message",
+  "popularity": 319032615,
+  "url": "https://www.npmjs.com/package/vfile-message"
+ },
+ {
+  "registry": "npm",
+  "id": "bowser",
+  "popularity": 317201013,
+  "url": "https://www.npmjs.com/package/bowser"
+ },
+ {
+  "registry": "npm",
+  "id": "decamelize",
+  "popularity": 316873268,
+  "url": "https://www.npmjs.com/package/decamelize"
+ },
+ {
+  "registry": "npm",
+  "id": "safe-stable-stringify",
+  "popularity": 312294083,
+  "url": "https://www.npmjs.com/package/safe-stable-stringify"
+ },
+ {
+  "registry": "npm",
+  "id": "pkg-types",
+  "popularity": 309777505,
+  "url": "https://www.npmjs.com/package/pkg-types"
+ },
+ {
+  "registry": "npm",
+  "id": "immer",
+  "popularity": 307746859,
+  "url": "https://www.npmjs.com/package/immer"
+ },
+ {
+  "registry": "npm",
+  "id": "process-warning",
+  "popularity": 306984362,
+  "url": "https://www.npmjs.com/package/process-warning"
+ },
+ {
+  "registry": "npm",
+  "id": "zustand",
+  "popularity": 301718062,
+  "url": "https://www.npmjs.com/package/zustand"
+ },
+ {
+  "registry": "npm",
+  "id": "json-schema-typed",
+  "popularity": 301502636,
+  "url": "https://www.npmjs.com/package/json-schema-typed"
+ },
+ {
+  "registry": "npm",
+  "id": "unrs-resolver",
+  "popularity": 280949946,
+  "url": "https://www.npmjs.com/package/unrs-resolver"
+ },
+ {
+  "registry": "npm",
+  "id": "mdast-util-to-markdown",
+  "popularity": 280110368,
+  "url": "https://www.npmjs.com/package/mdast-util-to-markdown"
+ },
+ {
+  "registry": "npm",
+  "id": "webpack-sources",
+  "popularity": 278635171,
+  "url": "https://www.npmjs.com/package/webpack-sources"
+ },
+ {
+  "registry": "npm",
+  "id": "napi-postinstall",
+  "popularity": 275356714,
+  "url": "https://www.npmjs.com/package/napi-postinstall"
+ },
+ {
+  "registry": "npm",
+  "id": "unplugin",
+  "popularity": 271550694,
+  "url": "https://www.npmjs.com/package/unplugin"
+ },
+ {
+  "registry": "npm",
+  "id": "file-type",
+  "popularity": 268869109,
+  "url": "https://www.npmjs.com/package/file-type"
+ },
+ {
+  "registry": "npm",
+  "id": "autoprefixer",
+  "popularity": 266192445,
+  "url": "https://www.npmjs.com/package/autoprefixer"
+ },
+ {
+  "registry": "npm",
+  "id": "webpack",
+  "popularity": 254305326,
+  "url": "https://www.npmjs.com/package/webpack"
+ },
+ {
+  "registry": "npm",
+  "id": "regjsparser",
+  "popularity": 253052031,
+  "url": "https://www.npmjs.com/package/regjsparser"
+ },
+ {
+  "registry": "npm",
+  "id": "watchpack",
+  "popularity": 252937403,
+  "url": "https://www.npmjs.com/package/watchpack"
+ },
+ {
+  "registry": "npm",
+  "id": "p-retry",
+  "popularity": 243481753,
+  "url": "https://www.npmjs.com/package/p-retry"
+ },
+ {
+  "registry": "npm",
+  "id": "p-timeout",
+  "popularity": 243055463,
+  "url": "https://www.npmjs.com/package/p-timeout"
+ },
+ {
+  "registry": "npm",
+  "id": "thread-stream",
+  "popularity": 242435484,
+  "url": "https://www.npmjs.com/package/thread-stream"
+ },
+ {
+  "registry": "npm",
+  "id": "cli-truncate",
+  "popularity": 241973363,
+  "url": "https://www.npmjs.com/package/cli-truncate"
+ },
+ {
+  "registry": "npm",
+  "id": "core-js-compat",
+  "popularity": 241115842,
+  "url": "https://www.npmjs.com/package/core-js-compat"
+ },
+ {
+  "registry": "npm",
+  "id": "graphql",
+  "popularity": 232341529,
+  "url": "https://www.npmjs.com/package/graphql"
+ },
+ {
+  "registry": "npm",
+  "id": "cac",
+  "popularity": 232022017,
+  "url": "https://www.npmjs.com/package/cac"
+ },
+ {
+  "registry": "npm",
+  "id": "victory-vendor",
+  "popularity": 227140193,
+  "url": "https://www.npmjs.com/package/victory-vendor"
+ },
+ {
+  "registry": "npm",
+  "id": "regexpu-core",
+  "popularity": 226900934,
+  "url": "https://www.npmjs.com/package/regexpu-core"
+ },
+ {
+  "registry": "npm",
+  "id": "react-hook-form",
+  "popularity": 223060997,
+  "url": "https://www.npmjs.com/package/react-hook-form"
+ },
+ {
+  "registry": "npm",
+  "id": "fast-equals",
+  "popularity": 220448408,
+  "url": "https://www.npmjs.com/package/fast-equals"
+ },
+ {
+  "registry": "npm",
+  "id": "motion-dom",
+  "popularity": 214320701,
+  "url": "https://www.npmjs.com/package/motion-dom"
+ },
+ {
+  "registry": "npm",
+  "id": "normalize-url",
+  "popularity": 214141756,
+  "url": "https://www.npmjs.com/package/normalize-url"
+ },
+ {
+  "registry": "npm",
+  "id": "motion-utils",
+  "popularity": 211595607,
+  "url": "https://www.npmjs.com/package/motion-utils"
+ },
+ {
+  "registry": "npm",
+  "id": "synckit",
+  "popularity": 208776596,
+  "url": "https://www.npmjs.com/package/synckit"
+ },
+ {
+  "registry": "npm",
+  "id": "serialize-javascript",
+  "popularity": 205483241,
+  "url": "https://www.npmjs.com/package/serialize-javascript"
+ },
+ {
+  "registry": "npm",
+  "id": "through2",
+  "popularity": 205075003,
+  "url": "https://www.npmjs.com/package/through2"
+ },
+ {
+  "registry": "npm",
+  "id": "emittery",
+  "popularity": 204861546,
+  "url": "https://www.npmjs.com/package/emittery"
+ },
+ {
+  "registry": "npm",
+  "id": "clean-stack",
+  "popularity": 203562115,
+  "url": "https://www.npmjs.com/package/clean-stack"
+ },
+ {
+  "registry": "npm",
+  "id": "inquirer",
+  "popularity": 201414955,
+  "url": "https://www.npmjs.com/package/inquirer"
+ },
+ {
+  "registry": "npm",
+  "id": "ansis",
+  "popularity": 200457565,
+  "url": "https://www.npmjs.com/package/ansis"
+ },
+ {
+  "registry": "npm",
+  "id": "ejs",
+  "popularity": 199545609,
+  "url": "https://www.npmjs.com/package/ejs"
+ },
+ {
+  "registry": "npm",
+  "id": "recast",
+  "popularity": 196688541,
+  "url": "https://www.npmjs.com/package/recast"
+ },
+ {
+  "registry": "npm",
+  "id": "supports-hyperlinks",
+  "popularity": 195068338,
+  "url": "https://www.npmjs.com/package/supports-hyperlinks"
+ },
+ {
+  "registry": "npm",
+  "id": "listr2",
+  "popularity": 189072064,
+  "url": "https://www.npmjs.com/package/listr2"
+ },
+ {
+  "registry": "npm",
+  "id": "node-forge",
+  "popularity": 184143318,
+  "url": "https://www.npmjs.com/package/node-forge"
+ },
+ {
+  "registry": "npm",
+  "id": "got",
+  "popularity": 182830350,
+  "url": "https://www.npmjs.com/package/got"
+ },
+ {
+  "registry": "npm",
+  "id": "resolve.exports",
+  "popularity": 179094521,
+  "url": "https://www.npmjs.com/package/resolve.exports"
+ },
+ {
+  "registry": "npm",
+  "id": "postcss-import",
+  "popularity": 176227207,
+  "url": "https://www.npmjs.com/package/postcss-import"
+ },
+ {
+  "registry": "npm",
+  "id": "postcss-nested",
+  "popularity": 169763791,
+  "url": "https://www.npmjs.com/package/postcss-nested"
+ },
+ {
+  "registry": "crates",
+  "id": "syn",
+  "popularity": 854840044,
+  "url": "https://crates.io/crates/syn"
+ },
+ {
+  "registry": "crates",
+  "id": "libc",
+  "popularity": 470322505,
+  "url": "https://crates.io/crates/libc"
+ },
+ {
+  "registry": "crates",
+  "id": "unicode-ident",
+  "popularity": 444427048,
+  "url": "https://crates.io/crates/unicode-ident"
+ },
+ {
+  "registry": "crates",
+  "id": "serde_json",
+  "popularity": 417244242,
+  "url": "https://crates.io/crates/serde_json"
+ },
+ {
+  "registry": "crates",
+  "id": "itoa",
+  "popularity": 411153535,
+  "url": "https://crates.io/crates/itoa"
+ },
+ {
+  "registry": "crates",
+  "id": "log",
+  "popularity": 378071013,
+  "url": "https://crates.io/crates/log"
+ },
+ {
+  "registry": "crates",
+  "id": "smallvec",
+  "popularity": 371208164,
+  "url": "https://crates.io/crates/smallvec"
+ },
+ {
+  "registry": "crates",
+  "id": "cc",
+  "popularity": 369852179,
+  "url": "https://crates.io/crates/cc"
+ },
+ {
+  "registry": "crates",
+  "id": "sha2",
+  "popularity": 367377050,
+  "url": "https://crates.io/crates/sha2"
+ },
+ {
+  "registry": "crates",
+  "id": "winnow",
+  "popularity": 362212495,
+  "url": "https://crates.io/crates/winnow"
+ },
+ {
+  "registry": "crates",
+  "id": "rustix",
+  "popularity": 351044578,
+  "url": "https://crates.io/crates/rustix"
+ },
+ {
+  "registry": "crates",
+  "id": "toml_datetime",
+  "popularity": 331910866,
+  "url": "https://crates.io/crates/toml_datetime"
+ },
+ {
+  "registry": "crates",
+  "id": "zerocopy",
+  "popularity": 322691326,
+  "url": "https://crates.io/crates/zerocopy"
+ },
+ {
+  "registry": "crates",
+  "id": "equivalent",
+  "popularity": 307367729,
+  "url": "https://crates.io/crates/equivalent"
+ },
+ {
+  "registry": "crates",
+  "id": "toml",
+  "popularity": 305295454,
+  "url": "https://crates.io/crates/toml"
+ },
+ {
+  "registry": "crates",
+  "id": "find-msvc-tools",
+  "popularity": 301390424,
+  "url": "https://crates.io/crates/find-msvc-tools"
+ },
+ {
+  "registry": "crates",
+  "id": "tokio",
+  "popularity": 297371018,
+  "url": "https://crates.io/crates/tokio"
+ },
+ {
+  "registry": "crates",
+  "id": "parking_lot_core",
+  "popularity": 278785059,
+  "url": "https://crates.io/crates/parking_lot_core"
+ },
+ {
+  "registry": "crates",
+  "id": "toml_edit",
+  "popularity": 276201728,
+  "url": "https://crates.io/crates/toml_edit"
+ },
+ {
+  "registry": "crates",
+  "id": "parking_lot",
+  "popularity": 274407508,
+  "url": "https://crates.io/crates/parking_lot"
+ },
+ {
+  "registry": "crates",
+  "id": "rustls",
+  "popularity": 273486035,
+  "url": "https://crates.io/crates/rustls"
+ },
+ {
+  "registry": "crates",
+  "id": "lock_api",
+  "popularity": 270183912,
+  "url": "https://crates.io/crates/lock_api"
+ },
+ {
+  "registry": "crates",
+  "id": "tinystr",
+  "popularity": 262465091,
+  "url": "https://crates.io/crates/tinystr"
+ },
+ {
+  "registry": "crates",
+  "id": "yoke",
+  "popularity": 262310315,
+  "url": "https://crates.io/crates/yoke"
+ },
+ {
+  "registry": "crates",
+  "id": "rustls-webpki",
+  "popularity": 261996546,
+  "url": "https://crates.io/crates/rustls-webpki"
+ },
+ {
+  "registry": "crates",
+  "id": "icu_provider",
+  "popularity": 261427266,
+  "url": "https://crates.io/crates/icu_provider"
+ },
+ {
+  "registry": "crates",
+  "id": "zerovec",
+  "popularity": 261366799,
+  "url": "https://crates.io/crates/zerovec"
+ },
+ {
+  "registry": "crates",
+  "id": "icu_collections",
+  "popularity": 260403313,
+  "url": "https://crates.io/crates/icu_collections"
+ },
+ {
+  "registry": "crates",
+  "id": "zerovec-derive",
+  "popularity": 260265311,
+  "url": "https://crates.io/crates/zerovec-derive"
+ },
+ {
+  "registry": "crates",
+  "id": "icu_properties_data",
+  "popularity": 258224480,
+  "url": "https://crates.io/crates/icu_properties_data"
+ },
+ {
+  "registry": "crates",
+  "id": "icu_properties",
+  "popularity": 257777127,
+  "url": "https://crates.io/crates/icu_properties"
+ },
+ {
+  "registry": "crates",
+  "id": "icu_normalizer",
+  "popularity": 255228267,
+  "url": "https://crates.io/crates/icu_normalizer"
+ },
+ {
+  "registry": "crates",
+  "id": "icu_normalizer_data",
+  "popularity": 255139816,
+  "url": "https://crates.io/crates/icu_normalizer_data"
+ },
+ {
+  "registry": "crates",
+  "id": "uuid",
+  "popularity": 249245255,
+  "url": "https://crates.io/crates/uuid"
+ },
+ {
+  "registry": "crates",
+  "id": "webpki-roots",
+  "popularity": 248560508,
+  "url": "https://crates.io/crates/webpki-roots"
+ },
+ {
+  "registry": "crates",
+  "id": "schemars",
+  "popularity": 240820510,
+  "url": "https://crates.io/crates/schemars"
+ },
+ {
+  "registry": "crates",
+  "id": "serde_spanned",
+  "popularity": 238074186,
+  "url": "https://crates.io/crates/serde_spanned"
+ },
+ {
+  "registry": "crates",
+  "id": "icu_locale_core",
+  "popularity": 237099848,
+  "url": "https://crates.io/crates/icu_locale_core"
+ },
+ {
+  "registry": "crates",
+  "id": "crc32fast",
+  "popularity": 232498379,
+  "url": "https://crates.io/crates/crc32fast"
+ },
+ {
+  "registry": "crates",
+  "id": "utf8_iter",
+  "popularity": 226201942,
+  "url": "https://crates.io/crates/utf8_iter"
+ },
+ {
+  "registry": "crates",
+  "id": "zerocopy-derive",
+  "popularity": 222632709,
+  "url": "https://crates.io/crates/zerocopy-derive"
+ },
+ {
+  "registry": "crates",
+  "id": "flate2",
+  "popularity": 222042214,
+  "url": "https://crates.io/crates/flate2"
+ },
+ {
+  "registry": "crates",
+  "id": "unicode-width",
+  "popularity": 220078426,
+  "url": "https://crates.io/crates/unicode-width"
+ },
+ {
+  "registry": "crates",
+  "id": "deranged",
+  "popularity": 208250042,
+  "url": "https://crates.io/crates/deranged"
+ },
+ {
+  "registry": "crates",
+  "id": "redox_syscall",
+  "popularity": 190791752,
+  "url": "https://crates.io/crates/redox_syscall"
+ },
+ {
+  "registry": "crates",
+  "id": "openssl-probe",
+  "popularity": 189503466,
+  "url": "https://crates.io/crates/openssl-probe"
+ },
+ {
+  "registry": "crates",
+  "id": "mime",
+  "popularity": 189423586,
+  "url": "https://crates.io/crates/mime"
+ },
+ {
+  "registry": "crates",
+  "id": "rustls-native-certs",
+  "popularity": 179404978,
+  "url": "https://crates.io/crates/rustls-native-certs"
+ },
+ {
+  "registry": "crates",
+  "id": "wasm-bindgen",
+  "popularity": 171587904,
+  "url": "https://crates.io/crates/wasm-bindgen"
+ },
+ {
+  "registry": "crates",
+  "id": "wasm-bindgen-macro-support",
+  "popularity": 171445192,
+  "url": "https://crates.io/crates/wasm-bindgen-macro-support"
+ },
+ {
+  "registry": "crates",
+  "id": "wasm-bindgen-shared",
+  "popularity": 171064352,
+  "url": "https://crates.io/crates/wasm-bindgen-shared"
+ },
+ {
+  "registry": "crates",
+  "id": "wasm-bindgen-macro",
+  "popularity": 171032738,
+  "url": "https://crates.io/crates/wasm-bindgen-macro"
+ },
+ {
+  "registry": "crates",
+  "id": "js-sys",
+  "popularity": 159718237,
+  "url": "https://crates.io/crates/js-sys"
+ },
+ {
+  "registry": "crates",
+  "id": "der",
+  "popularity": 157709099,
+  "url": "https://crates.io/crates/der"
+ },
+ {
+  "registry": "crates",
+  "id": "encoding_rs",
+  "popularity": 148935648,
+  "url": "https://crates.io/crates/encoding_rs"
+ },
+ {
+  "registry": "crates",
+  "id": "fixedbitset",
+  "popularity": 144046978,
+  "url": "https://crates.io/crates/fixedbitset"
+ },
+ {
+  "registry": "crates",
+  "id": "unicode-normalization",
+  "popularity": 143350533,
+  "url": "https://crates.io/crates/unicode-normalization"
+ },
+ {
+  "registry": "crates",
+  "id": "wit-bindgen",
+  "popularity": 138452561,
+  "url": "https://crates.io/crates/wit-bindgen"
+ },
+ {
+  "registry": "crates",
+  "id": "ordered-float",
+  "popularity": 132902023,
+  "url": "https://crates.io/crates/ordered-float"
+ },
+ {
+  "registry": "crates",
+  "id": "toml_writer",
+  "popularity": 130190211,
+  "url": "https://crates.io/crates/toml_writer"
+ },
+ {
+  "registry": "crates",
+  "id": "inout",
+  "popularity": 129923270,
+  "url": "https://crates.io/crates/inout"
+ },
+ {
+  "registry": "crates",
+  "id": "lru",
+  "popularity": 125973183,
+  "url": "https://crates.io/crates/lru"
+ },
+ {
+  "registry": "crates",
+  "id": "web-sys",
+  "popularity": 122706313,
+  "url": "https://crates.io/crates/web-sys"
+ },
+ {
+  "registry": "crates",
+  "id": "zstd-safe",
+  "popularity": 121467151,
+  "url": "https://crates.io/crates/zstd-safe"
+ },
+ {
+  "registry": "crates",
+  "id": "aes",
+  "popularity": 119779735,
+  "url": "https://crates.io/crates/aes"
+ },
+ {
+  "registry": "crates",
+  "id": "aws-lc-sys",
+  "popularity": 118241940,
+  "url": "https://crates.io/crates/aws-lc-sys"
+ },
+ {
+  "registry": "crates",
+  "id": "zstd",
+  "popularity": 117472636,
+  "url": "https://crates.io/crates/zstd"
+ },
+ {
+  "registry": "crates",
+  "id": "aws-lc-rs",
+  "popularity": 117122310,
+  "url": "https://crates.io/crates/aws-lc-rs"
+ },
+ {
+  "registry": "crates",
+  "id": "arc-swap",
+  "popularity": 111552750,
+  "url": "https://crates.io/crates/arc-swap"
+ },
+ {
+  "registry": "crates",
+  "id": "jiff",
+  "popularity": 111283969,
+  "url": "https://crates.io/crates/jiff"
+ },
+ {
+  "registry": "crates",
+  "id": "wasm-bindgen-futures",
+  "popularity": 111206358,
+  "url": "https://crates.io/crates/wasm-bindgen-futures"
+ },
+ {
+  "registry": "crates",
+  "id": "memmap2",
+  "popularity": 111054492,
+  "url": "https://crates.io/crates/memmap2"
+ },
+ {
+  "registry": "crates",
+  "id": "tonic",
+  "popularity": 110522587,
+  "url": "https://crates.io/crates/tonic"
+ },
+ {
+  "registry": "crates",
+  "id": "zstd-sys",
+  "popularity": 109034409,
+  "url": "https://crates.io/crates/zstd-sys"
+ },
+ {
+  "registry": "crates",
+  "id": "libsqlite3-sys",
+  "popularity": 105266116,
+  "url": "https://crates.io/crates/libsqlite3-sys"
+ },
+ {
+  "registry": "crates",
+  "id": "schemars_derive",
+  "popularity": 103314818,
+  "url": "https://crates.io/crates/schemars_derive"
+ },
+ {
+  "registry": "crates",
+  "id": "zip",
+  "popularity": 101206949,
+  "url": "https://crates.io/crates/zip"
+ },
+ {
+  "registry": "crates",
+  "id": "fancy-regex",
+  "popularity": 100093636,
+  "url": "https://crates.io/crates/fancy-regex"
+ },
+ {
+  "registry": "crates",
+  "id": "wasmparser",
+  "popularity": 97012800,
+  "url": "https://crates.io/crates/wasmparser"
+ },
+ {
+  "registry": "crates",
+  "id": "combine",
+  "popularity": 94944645,
+  "url": "https://crates.io/crates/combine"
+ },
+ {
+  "registry": "crates",
+  "id": "ctutils",
+  "popularity": 94329262,
+  "url": "https://crates.io/crates/ctutils"
+ },
+ {
+  "registry": "crates",
+  "id": "brotli-decompressor",
+  "popularity": 93444612,
+  "url": "https://crates.io/crates/brotli-decompressor"
+ },
+ {
+  "registry": "crates",
+  "id": "openssl-sys",
+  "popularity": 93134959,
+  "url": "https://crates.io/crates/openssl-sys"
+ },
+ {
+  "registry": "crates",
+  "id": "crypto-bigint",
+  "popularity": 93075240,
+  "url": "https://crates.io/crates/crypto-bigint"
+ },
+ {
+  "registry": "crates",
+  "id": "schannel",
+  "popularity": 89216164,
+  "url": "https://crates.io/crates/schannel"
+ },
+ {
+  "registry": "crates",
+  "id": "brotli",
+  "popularity": 89123365,
+  "url": "https://crates.io/crates/brotli"
+ },
+ {
+  "registry": "crates",
+  "id": "elliptic-curve",
+  "popularity": 86651695,
+  "url": "https://crates.io/crates/elliptic-curve"
+ },
+ {
+  "registry": "crates",
+  "id": "unicode-properties",
+  "popularity": 86377143,
+  "url": "https://crates.io/crates/unicode-properties"
+ },
+ {
+  "registry": "crates",
+  "id": "pest",
+  "popularity": 86170662,
+  "url": "https://crates.io/crates/pest"
+ },
+ {
+  "registry": "crates",
+  "id": "openssl",
+  "popularity": 84779004,
+  "url": "https://crates.io/crates/openssl"
+ },
+ {
+  "registry": "crates",
+  "id": "ureq",
+  "popularity": 83929369,
+  "url": "https://crates.io/crates/ureq"
+ },
+ {
+  "registry": "crates",
+  "id": "async-lock",
+  "popularity": 83028700,
+  "url": "https://crates.io/crates/async-lock"
+ },
+ {
+  "registry": "crates",
+  "id": "backtrace",
+  "popularity": 81089752,
+  "url": "https://crates.io/crates/backtrace"
+ },
+ {
+  "registry": "crates",
+  "id": "defmt",
+  "popularity": 79295187,
+  "url": "https://crates.io/crates/defmt"
+ },
+ {
+  "registry": "crates",
+  "id": "wasm-encoder",
+  "popularity": 78367943,
+  "url": "https://crates.io/crates/wasm-encoder"
+ },
+ {
+  "registry": "crates",
+  "id": "xattr",
+  "popularity": 78015630,
+  "url": "https://crates.io/crates/xattr"
+ },
+ {
+  "registry": "crates",
+  "id": "pest_derive",
+  "popularity": 76512180,
+  "url": "https://crates.io/crates/pest_derive"
+ },
+ {
+  "registry": "crates",
+  "id": "pest_meta",
+  "popularity": 76444060,
+  "url": "https://crates.io/crates/pest_meta"
+ },
+ {
+  "registry": "crates",
+  "id": "pest_generator",
+  "popularity": 76389884,
+  "url": "https://crates.io/crates/pest_generator"
+ },
+ {
+  "registry": "crates",
+  "id": "pyo3-build-config",
+  "popularity": 74969575,
+  "url": "https://crates.io/crates/pyo3-build-config"
+ },
+ {
+  "registry": "github",
+  "id": "morluto/rea",
+  "popularity": 447479,
+  "url": "https://github.com/morluto/rea/releases"
+ },
+ {
+  "registry": "github",
+  "id": "openclaw/openclaw",
+  "popularity": 394261,
+  "url": "https://github.com/openclaw/openclaw/releases"
+ },
+ {
+  "registry": "github",
+  "id": "mattpocock/skills",
+  "popularity": 319920,
+  "url": "https://github.com/mattpocock/skills/releases"
+ },
+ {
+  "registry": "github",
+  "id": "obra/superpowers",
+  "popularity": 315245,
+  "url": "https://github.com/obra/superpowers/releases"
+ },
+ {
+  "registry": "github",
+  "id": "deepseek-ai/deepseek-harness",
+  "popularity": 277546,
+  "url": "https://github.com/deepseek-ai/deepseek-harness/releases"
+ },
+ {
+  "registry": "github",
+  "id": "NousResearch/hermes-agent",
+  "popularity": 262133,
+  "url": "https://github.com/NousResearch/hermes-agent/releases"
+ },
+ {
+  "registry": "github",
+  "id": "react/react",
+  "popularity": 252467,
+  "url": "https://github.com/react/react/releases"
+ },
+ {
+  "registry": "github",
+  "id": "anomalyco/opencode",
+  "popularity": 225707,
+  "url": "https://github.com/anomalyco/opencode/releases"
+ },
+ {
+  "registry": "github",
+  "id": "n8n-io/n8n",
+  "popularity": 209959,
+  "url": "https://github.com/n8n-io/n8n/releases"
+ },
+ {
+  "registry": "github",
+  "id": "yt-dlp/yt-dlp",
+  "popularity": 206535,
+  "url": "https://github.com/yt-dlp/yt-dlp/releases"
+ },
+ {
+  "registry": "github",
+  "id": "microsoft/vscode",
+  "popularity": 195252,
+  "url": "https://github.com/microsoft/vscode/releases"
+ },
+ {
+  "registry": "github",
+  "id": "ultraworkers/claw-code",
+  "popularity": 194806,
+  "url": "https://github.com/ultraworkers/claw-code/releases"
+ },
+ {
+  "registry": "github",
+  "id": "microsoft/markitdown",
+  "popularity": 194631,
+  "url": "https://github.com/microsoft/markitdown/releases"
+ },
+ {
+  "registry": "github",
+  "id": "Significant-Gravitas/AutoGPT",
+  "popularity": 187975,
+  "url": "https://github.com/Significant-Gravitas/AutoGPT/releases"
+ },
+ {
+  "registry": "github",
+  "id": "521xueweihan/HelloGitHub",
+  "popularity": 187869,
+  "url": "https://github.com/521xueweihan/HelloGitHub/releases"
+ },
+ {
+  "registry": "github",
+  "id": "DietrichGebert/ponytail",
+  "popularity": 187838,
+  "url": "https://github.com/DietrichGebert/ponytail/releases"
+ },
+ {
+  "registry": "github",
+  "id": "ollama/ollama",
+  "popularity": 186471,
+  "url": "https://github.com/ollama/ollama/releases"
+ },
+ {
+  "registry": "github",
+  "id": "huggingface/transformers",
+  "popularity": 168719,
+  "url": "https://github.com/huggingface/transformers/releases"
+ },
+ {
+  "registry": "github",
+  "id": "langgenius/dify",
+  "popularity": 160791,
+  "url": "https://github.com/langgenius/dify/releases"
+ },
+ {
+  "registry": "github",
+  "id": "open-webui/open-webui",
+  "popularity": 158250,
+  "url": "https://github.com/open-webui/open-webui/releases"
+ },
+ {
+  "registry": "github",
+  "id": "clash-verge-rev/clash-verge-rev",
+  "popularity": 157437,
+  "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases"
+ },
+ {
+  "registry": "github",
+  "id": "langflow-ai/langflow",
+  "popularity": 156492,
+  "url": "https://github.com/langflow-ai/langflow/releases"
+ },
+ {
+  "registry": "github",
+  "id": "anthropics/claude-code",
+  "popularity": 155116,
+  "url": "https://github.com/anthropics/claude-code/releases"
+ },
+ {
+  "registry": "github",
+  "id": "farion1231/cc-switch",
+  "popularity": 153133,
+  "url": "https://github.com/farion1231/cc-switch/releases"
+ },
+ {
+  "registry": "github",
+  "id": "langchain-ai/langchain",
+  "popularity": 149288,
+  "url": "https://github.com/langchain-ai/langchain/releases"
+ },
+ {
+  "registry": "github",
+  "id": "github/spec-kit",
+  "popularity": 149061,
+  "url": "https://github.com/github/spec-kit/releases"
+ },
+ {
+  "registry": "github",
+  "id": "Comfy-Org/ComfyUI",
+  "popularity": 146025,
+  "url": "https://github.com/Comfy-Org/ComfyUI/releases"
+ },
+ {
+  "registry": "github",
+  "id": "Graphify-Labs/graphify",
+  "popularity": 145112,
+  "url": "https://github.com/Graphify-Labs/graphify/releases"
+ },
+ {
+  "registry": "github",
+  "id": "vercel/next.js",
+  "popularity": 143439,
+  "url": "https://github.com/vercel/next.js/releases"
+ },
+ {
+  "registry": "github",
+  "id": "harry0703/MoneyPrinterTurbo",
+  "popularity": 141691,
+  "url": "https://github.com/harry0703/MoneyPrinterTurbo/releases"
+ },
+ {
+  "registry": "github",
+  "id": "garrytan/gstack",
+  "popularity": 140991,
+  "url": "https://github.com/garrytan/gstack/releases"
+ },
+ {
+  "registry": "github",
+  "id": "microsoft/PowerToys",
+  "popularity": 140793,
+  "url": "https://github.com/microsoft/PowerToys/releases"
+ },
+ {
+  "registry": "github",
+  "id": "ggml-org/llama.cpp",
+  "popularity": 133864,
+  "url": "https://github.com/ggml-org/llama.cpp/releases"
+ },
+ {
+  "registry": "github",
+  "id": "kubernetes/kubernetes",
+  "popularity": 128965,
+  "url": "https://github.com/kubernetes/kubernetes/releases"
+ },
+ {
+  "registry": "github",
+  "id": "rustdesk/rustdesk",
+  "popularity": 128821,
+  "url": "https://github.com/rustdesk/rustdesk/releases"
+ },
+ {
+  "registry": "github",
+  "id": "shadcn-ui/ui",
+  "popularity": 127758,
+  "url": "https://github.com/shadcn-ui/ui/releases"
+ },
+ {
+  "registry": "github",
+  "id": "react/react-native",
+  "popularity": 126888,
+  "url": "https://github.com/react/react-native/releases"
+ },
+ {
+  "registry": "github",
+  "id": "electron/electron",
+  "popularity": 123834,
+  "url": "https://github.com/electron/electron/releases"
+ },
+ {
+  "registry": "github",
+  "id": "nodejs/node",
+  "popularity": 123451,
+  "url": "https://github.com/nodejs/node/releases"
+ },
+ {
+  "registry": "github",
+  "id": "rust-lang/rust",
+  "popularity": 121708,
+  "url": "https://github.com/rust-lang/rust/releases"
+ },
+ {
+  "registry": "github",
+  "id": "TauricResearch/TradingAgents",
+  "popularity": 121678,
+  "url": "https://github.com/TauricResearch/TradingAgents/releases"
+ },
+ {
+  "registry": "github",
+  "id": "earendil-works/pi",
+  "popularity": 121112,
+  "url": "https://github.com/earendil-works/pi/releases"
+ },
+ {
+  "registry": "github",
+  "id": "stablyai/orca",
+  "popularity": 120596,
+  "url": "https://github.com/stablyai/orca/releases"
+ },
+ {
+  "registry": "github",
+  "id": "browser-use/browser-use",
+  "popularity": 120465,
+  "url": "https://github.com/browser-use/browser-use/releases"
+ },
+ {
+  "registry": "github",
+  "id": "2dust/v2rayN",
+  "popularity": 120294,
+  "url": "https://github.com/2dust/v2rayN/releases"
+ },
+ {
+  "registry": "github",
+  "id": "JuliusBrussee/caveman",
+  "popularity": 118696,
+  "url": "https://github.com/JuliusBrussee/caveman/releases"
+ },
+ {
+  "registry": "github",
+  "id": "immich-app/immich",
+  "popularity": 118657,
+  "url": "https://github.com/immich-app/immich/releases"
+ },
+ {
+  "registry": "github",
+  "id": "mrdoob/three.js",
+  "popularity": 117983,
+  "url": "https://github.com/mrdoob/three.js/releases"
+ },
+ {
+  "registry": "github",
+  "id": "thedotmack/claude-mem",
+  "popularity": 115475,
+  "url": "https://github.com/thedotmack/claude-mem/releases"
+ },
+ {
+  "registry": "github",
+  "id": "addyosmani/agent-skills",
+  "popularity": 114621,
+  "url": "https://github.com/addyosmani/agent-skills/releases"
+ },
+ {
+  "registry": "github",
+  "id": "d3/d3",
+  "popularity": 113892,
+  "url": "https://github.com/d3/d3/releases"
+ },
+ {
+  "registry": "github",
+  "id": "paperclipai/paperclip",
+  "popularity": 112684,
+  "url": "https://github.com/paperclipai/paperclip/releases"
+ },
+ {
+  "registry": "github",
+  "id": "tauri-apps/tauri",
+  "popularity": 112652,
+  "url": "https://github.com/tauri-apps/tauri/releases"
+ },
+ {
+  "registry": "github",
+  "id": "Leonxlnx/taste-skill",
+  "popularity": 112600,
+  "url": "https://github.com/Leonxlnx/taste-skill/releases"
+ },
+ {
+  "registry": "github",
+  "id": "microsoft/TypeScript",
+  "popularity": 111866,
+  "url": "https://github.com/microsoft/TypeScript/releases"
+ },
+ {
+  "registry": "github",
+  "id": "Panniantong/Agent-Reach",
+  "popularity": 110675,
+  "url": "https://github.com/Panniantong/Agent-Reach/releases"
+ },
+ {
+  "registry": "github",
+  "id": "fatedier/frp",
+  "popularity": 110499,
+  "url": "https://github.com/fatedier/frp/releases"
+ },
+ {
+  "registry": "github",
+  "id": "axios/axios",
+  "popularity": 109296,
+  "url": "https://github.com/axios/axios/releases"
+ },
+ {
+  "registry": "github",
+  "id": "denoland/deno",
+  "popularity": 108940,
+  "url": "https://github.com/denoland/deno/releases"
+ },
+ {
+  "registry": "github",
+  "id": "google-gemini/gemini-cli",
+  "popularity": 108749,
+  "url": "https://github.com/google-gemini/gemini-cli/releases"
+ },
+ {
+  "registry": "github",
+  "id": "pbakaus/impeccable",
+  "popularity": 107005,
+  "url": "https://github.com/pbakaus/impeccable/releases"
+ },
+ {
+  "registry": "github",
+  "id": "nexu-io/open-design",
+  "popularity": 106875,
+  "url": "https://github.com/nexu-io/open-design/releases"
+ },
+ {
+  "registry": "github",
+  "id": "debpalash/VoiceStudio",
+  "popularity": 106340,
+  "url": "https://github.com/debpalash/VoiceStudio/releases"
+ },
+ {
+  "registry": "github",
+  "id": "pytorch/pytorch",
+  "popularity": 105302,
+  "url": "https://github.com/pytorch/pytorch/releases"
+ },
+ {
+  "registry": "github",
+  "id": "fastapi/fastapi",
+  "popularity": 104603,
+  "url": "https://github.com/fastapi/fastapi/releases"
+ },
+ {
+  "registry": "github",
+  "id": "ruvnet/RuView",
+  "popularity": 103588,
+  "url": "https://github.com/ruvnet/RuView/releases"
+ },
+ {
+  "registry": "github",
+  "id": "neovim/neovim",
+  "popularity": 103536,
+  "url": "https://github.com/neovim/neovim/releases"
+ },
+ {
+  "registry": "github",
+  "id": "angular/angular",
+  "popularity": 101466,
+  "url": "https://github.com/angular/angular/releases"
+ },
+ {
+  "registry": "github",
+  "id": "D4Vinci/Scrapling",
+  "popularity": 100665,
+  "url": "https://github.com/D4Vinci/Scrapling/releases"
+ },
+ {
+  "registry": "github",
+  "id": "ant-design/ant-design",
+  "popularity": 100131,
+  "url": "https://github.com/ant-design/ant-design/releases"
+ },
+ {
+  "registry": "github",
+  "id": "microsoft/playwright",
+  "popularity": 99700,
+  "url": "https://github.com/microsoft/playwright/releases"
+ },
+ {
+  "registry": "github",
+  "id": "mui/material-ui",
+  "popularity": 99308,
+  "url": "https://github.com/mui/material-ui/releases"
+ },
+ {
+  "registry": "github",
+  "id": "NationalSecurityAgency/ghidra",
+  "popularity": 99136,
+  "url": "https://github.com/NationalSecurityAgency/ghidra/releases"
+ },
+ {
+  "registry": "github",
+  "id": "tailwindlabs/tailwindcss",
+  "popularity": 98663,
+  "url": "https://github.com/tailwindlabs/tailwindcss/releases"
+ },
+ {
+  "registry": "github",
+  "id": "hacksider/Deep-Live-Cam",
+  "popularity": 97896,
+  "url": "https://github.com/hacksider/Deep-Live-Cam/releases"
+ },
+ {
+  "registry": "github",
+  "id": "oven-sh/bun",
+  "popularity": 96732,
+  "url": "https://github.com/oven-sh/bun/releases"
+ },
+ {
+  "registry": "github",
+  "id": "vllm-project/vllm",
+  "popularity": 96640,
+  "url": "https://github.com/vllm-project/vllm/releases"
+ },
+ {
+  "registry": "github",
+  "id": "Stirling-Tools/Stirling-PDF",
+  "popularity": 96172,
+  "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases"
+ },
+ {
+  "registry": "github",
+  "id": "puppeteer/puppeteer",
+  "popularity": 95815,
+  "url": "https://github.com/puppeteer/puppeteer/releases"
+ },
+ {
+  "registry": "github",
+  "id": "nvm-sh/nvm",
+  "popularity": 95778,
+  "url": "https://github.com/nvm-sh/nvm/releases"
+ },
+ {
+  "registry": "github",
+  "id": "tt-a1i/archify",
+  "popularity": 95127,
+  "url": "https://github.com/tt-a1i/archify/releases"
+ },
+ {
+  "registry": "github",
+  "id": "zed-industries/zed",
+  "popularity": 94608,
+  "url": "https://github.com/zed-industries/zed/releases"
+ },
+ {
+  "registry": "github",
+  "id": "infiniflow/ragflow",
+  "popularity": 93922,
+  "url": "https://github.com/infiniflow/ragflow/releases"
+ },
+ {
+  "registry": "github",
+  "id": "louislam/uptime-kuma",
+  "popularity": 93431,
+  "url": "https://github.com/louislam/uptime-kuma/releases"
+ },
+ {
+  "registry": "github",
+  "id": "OpenHands/OpenHands",
+  "popularity": 93073,
+  "url": "https://github.com/OpenHands/OpenHands/releases"
+ },
+ {
+  "registry": "github",
+  "id": "home-assistant/core",
+  "popularity": 92113,
+  "url": "https://github.com/home-assistant/core/releases"
+ },
+ {
+  "registry": "github",
+  "id": "modelcontextprotocol/servers",
+  "popularity": 91897,
+  "url": "https://github.com/modelcontextprotocol/servers/releases"
+ },
+ {
+  "registry": "github",
+  "id": "astral-sh/uv",
+  "popularity": 91834,
+  "url": "https://github.com/astral-sh/uv/releases"
+ },
+ {
+  "registry": "github",
+  "id": "opencv/opencv",
+  "popularity": 91507,
+  "url": "https://github.com/opencv/opencv/releases"
+ },
+ {
+  "registry": "github",
+  "id": "storybookjs/storybook",
+  "popularity": 91506,
+  "url": "https://github.com/storybookjs/storybook/releases"
+ },
+ {
+  "registry": "github",
+  "id": "mermaid-js/mermaid",
+  "popularity": 91056,
+  "url": "https://github.com/mermaid-js/mermaid/releases"
+ },
+ {
+  "registry": "github",
+  "id": "bitcoin/bitcoin",
+  "popularity": 90644,
+  "url": "https://github.com/bitcoin/bitcoin/releases"
+ },
+ {
+  "registry": "github",
+  "id": "gohugoio/hugo",
+  "popularity": 90426,
+  "url": "https://github.com/gohugoio/hugo/releases"
+ },
+ {
+  "registry": "github",
+  "id": "koala73/worldmonitor",
+  "popularity": 90424,
+  "url": "https://github.com/koala73/worldmonitor/releases"
+ },
+ {
+  "registry": "github",
+  "id": "syncthing/syncthing",
+  "popularity": 90295,
+  "url": "https://github.com/syncthing/syncthing/releases"
+ },
+ {
+  "registry": "github",
+  "id": "sveltejs/svelte",
+  "popularity": 88689,
+  "url": "https://github.com/sveltejs/svelte/releases"
+ },
+ {
+  "registry": "github",
+  "id": "unclecode/crawl4ai",
+  "popularity": 87158,
+  "url": "https://github.com/unclecode/crawl4ai/releases"
+ },
+ {
+  "registry": "github",
+  "id": "cheaper-inference/OmniRoute",
+  "popularity": 86038,
+  "url": "https://github.com/cheaper-inference/OmniRoute/releases"
+ },
+ {
+  "registry": "github",
+  "id": "rtk-ai/rtk",
+  "popularity": 86033,
+  "url": "https://github.com/rtk-ai/rtk/releases"
+ },
+ {
+  "registry": "github",
+  "id": "bytedance/deer-flow",
+  "popularity": 85202,
+  "url": "https://github.com/bytedance/deer-flow/releases"
+ }
+]

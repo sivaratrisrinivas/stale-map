@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# Raw MCP responses hold whole third-party pages; the repo ships data/slim/ instead.
+data/raw/
+site/dist/
+.vercel/
+.env*

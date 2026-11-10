@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Stale Map: how old is the copy an agent reads?</title>
+<style>
+:root { --ink:#1d1d1f; --mute:#6b6b70; --line:#e6e6e6; --bg:#fbfaf7; --good:#2e7d4f; --bad:#b03a2e; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font:17px/1.55 ui-sans-serif, -apple-system, "Segoe UI", Inter, sans-serif; }
+main { max-width: 860px; margin: 0 auto; padding: 48px 22px 80px; }
+h1 { font-size: 34px; line-height:1.15; margin: 0 0 10px; letter-spacing:-.01em; }
+h2 { font-size: 22px; margin: 6px 0 8px; }
+.lede { color: var(--mute); font-size: 19px; margin: 0 0 28px; }
+.step { margin-top: 56px; color: var(--mute); font: 600 12px/1 ui-monospace, Menlo, monospace; letter-spacing:.08em; text-transform:uppercase; }
+.pilot { display:grid; grid-template-columns: 1fr 1.3fr 1fr; gap: 12px; margin: 18px 0 6px; }
+.cell { background:#fff; border:1px solid var(--line); border-radius:10px; padding:14px 16px; }
+.cell .k { font-size:13px; color:var(--mute); }
+.cell .v { font: 600 22px/1.3 ui-monospace, Menlo, monospace; margin: 6px 0; }
+.cell .s { font-size:13px; color:var(--mute); }
+.cell.bad .v { color: var(--bad); } .cell.good .v { color: var(--good); }
+.note { color:var(--mute); font-size:14px; }
+svg { width:100%; height:auto; background:#fff; border:1px solid var(--line); border-radius:10px; margin: 10px 0; }
+svg .ax { font: 11px ui-sans-serif, sans-serif; fill: #777; } svg .lg { font: 600 12px ui-sans-serif, sans-serif; } svg .lb { font: 13px ui-sans-serif, sans-serif; fill:#333; }
+table { border-collapse: collapse; width:100%; font-size:14px; margin: 10px 0; background:#fff; }
+th, td { border-bottom:1px solid var(--line); padding: 7px 8px; text-align:right; }
+th:first-child, td:first-child { text-align:left; }
+tr.hl td { font-weight:600; color: var(--good); }
+code { font: 14px ui-monospace, Menlo, monospace; background:#f0eee8; padding: 1px 5px; border-radius:4px; }
+pre { background:#fff; border:1px solid var(--line); border-radius:10px; padding: 14px; overflow:auto; font-size:13px; }
+.big { font-size: 20px; }
+ul { padding-left: 20px; } li { margin: 4px 0; }
+footer { margin-top: 60px; color: var(--mute); font-size: 14px; border-top:1px solid var(--line); padding-top: 16px; }
+@media (max-width: 720px) { .pilot { grid-template-columns: 1fr; } h1 { font-size: 27px; } }
+</style>
+</head>
+<body>
+<main>
+<div class="step" style="margin-top:0">Pilot · not public · offered as data</div>
+<h1>Stale Map: how old is the copy an agent reads?</h1>
+<p class="lede">Package registries record the exact second every release goes out. That makes them a free, exact change clock. I used it to measure how far behind Parallel's index is on {{n_parsed}} registry pages that coding agents read, and to score recrawl policies against it.</p>
+
+<div class="step">1 · One release</div>
+<h2>openai {{p_new}}, {{p_hours}} hours later</h2>
+{{pilot}}
+<p>The GitHub releases page in the same call was current. The PyPI page was not, and nothing in the response said so. Both copies carry an <code>acquired_at</code> date. On PyPI that date is five days back, and it did not change when live fetch was allowed.</p>
+<p class="note">{{search_line}}</p>
+
+<div class="step">2 · Zoom out</div>
+<h2>{{n_parsed}} pages, {{n_points}} releases</h2>
+<p>I sampled popular pages on PyPI, npm, crates.io and GitHub Releases that had shipped at least one release in the 30 days before {{cutoff}}, and read Parallel's cached copy of each through the free MCP <code>web_fetch</code> ({{obs}}). For every release in the last 30 days, the question is simple: does the copy show it yet?</p>
+{{lag}}
+<p class="big">Of releases under 48 hours old, <b>{{r2}} of {{n2}}</b> were reflected. Between one and two weeks old: <b>{{rw}} of {{nw}}</b>. Two to four weeks: <b>{{rm}} of {{nm}}</b>.</p>
+<p>At the time we looked, {{n_stale}} of {{n_parsed}} copies ({{stale_pct}}) were missing at least one release. Typical crawl age per site, from each copy's own <code>acquired_at</code>:</p>
+<table>
+<tr><th>site</th><th>pages</th><th>stale copies</th><th>median crawl age</th><th>p90 crawl age</th><th>median lag of stale copies (at least)</th><th>acquired_at agrees with version</th></tr>
+{{sites}}
+</table>
+<p class="note">How crawl age is inferred: a copy that shows release N but not N+1 was crawled after N and before N+1. That bracket comes from the registry alone. It agreed with Parallel's <code>acquired_at</code> date on {{acq_ok}} of {{acq_n}} pages, so the outside-in method and the index's own label tell the same story. "Lag of stale copies" is the lower bound: time since the first release the copy is missing.</p>
+
+<div class="step">3 · Recrawl policy</div>
+<h2>Which pages to refetch first</h2>
+<p>A crawler has a fixed budget, so the question is ordering. I froze every feature at {{cutoff}} and scored each policy on which copies were stale about a day later (the held-out day). The outside-view policies don't know when the index last crawled a page. The other two do, which is exactly what the index owner knows and what <code>acquired_at</code> exposes. Nothing was fitted on the labels.</p>
+{{ranker}}
+{{rtable}}
+<p>The classic change-rate policy (Cho &amp; Garcia-Molina's Poisson model) beats uniform only a little here, and popularity does worse than random: popular packages are not the ones that ship most often. Once crawl time is known, the change clock covers 90% of stale pages with <b>{{need_cc}}</b> of the budget, against {{need_ap}} for Poisson-with-crawl-age and {{need_rc}} for the best outside-view policy. The ceiling is {{need_or}}. At a 50% budget the change clock catches {{cc50}} vs {{ap50}} (bootstrap 95% CI of the difference: {{ci_ap}} points).</p>
+<p class="note">The same order holds on a hash-held-out third ({{hold_n}} pages: change clock {{hold_cc}}, Poisson + crawl age {{hold_ap}}) and within each registry (change clock: {{within_cc}}).</p>
+<p>The clock is frozen a day early, so it misses what ships on the held-out day: {{day_only}} of the {{n_eval_stale}} stale pages only went stale after the cutoff. Everything else was knowable from public timestamps before the day began. For registry-style pages, recrawling is mostly a lookup, not a forecast.</p>
+
+<div class="step">4 · What an agent can do today</div>
+<h2>Ask for a maximum age on registry domains</h2>
+<p>The Extract API already has the knob. For <code>pypi.org</code>, <code>npmjs.com</code>, <code>crates.io</code> and release pages, pass a maximum age and turn off the silent fallback, so a failed live fetch returns an error instead of a days-old copy:</p>
+<pre>POST /v1/extract
+{
+  "urls": ["https://pypi.org/project/openai/"],
+  "objective": "latest released version",
+  "advanced_settings": {
+    "fetch_policy": { "max_age_seconds": 3600, "disable_cache_fallback": true }
+  }
+}</pre>
+<p class="note">From Parallel's docs (Advanced Extract Settings): <code>max_age_seconds</code> minimum is 600, and <code>disable_cache_fallback</code> defaults to false. I didn't test this path, because this study used only the free, no-key MCP. On the free MCP, the cheap guard is to read <code>acquired_at</code> and, for a package page, check the registry's JSON (<code>pypi.org/pypi/&lt;name&gt;/json</code>, <code>registry.npmjs.org/&lt;name&gt;</code>). {{live}}</p>
+
+<div class="step">5 · Caveats</div>
+<h2>What this is not</h2>
+<ul>
+<li>A pilot: one snapshot, one morning, {{n_parsed}} pages. Not a verdict on Parallel's index, and Parallel may already track this internally.</li>
+<li>A narrow slice of the web. Registry pages change on a known clock, so they are easy to measure, not typical.</li>
+<li>Possible confound: PyPI sometimes serves bots a challenge, which could explain stale PyPI copies, since live fetch falls back to the cache. But with live fetch allowed, {{live_same}} of {{live_n}} responses on all four sites came back with the cached copy's <code>acquired_at</code>, so from the outside I can't say why.</li>
+<li>The sample is popular pages that had shipped recently, so it over-weights fast movers. Copies of quiet pages are fresher by construction.</li>
+<li>Crawl time is known to the day (<code>acquired_at</code> is a UTC date). The version bracket is exact, but only as tight as the gap between releases.</li>
+</ul>
+
+<footer>
+Free tools only: Parallel's public MCP (<code>web_fetch</code>, with spaced calls and backoff), the registries' JSON APIs and the GitHub API. No API key, no spend, and <code>send_feedback</code> was never called. Data: <a href="data/summary.json">summary.json</a> · <a href="data/pages.csv">pages.csv</a> · <a href="data/cached.jsonl">traces</a>.<br>
+Srinivas Sivaratri · built on the harness habits of exa-freshness-eval (frozen cutoff, code checks, no LLM judge), page-canary (polite throttling) and Bingo (recall at a budget).
+</footer>
+</main>
+</body>
+</html>
